@@ -17,7 +17,7 @@ This code example allows capturing C# method calls as serializable DTOs that can
 ## Installation
 
 ```bash
-git clone https://github.com/dieron/DynamicMethodSerializer.git
+git clone https://github.com/dieron/LambdaIsolation.git
 cd DynamicMethodSerializer
 dotnet build
 ```
@@ -86,5 +86,5 @@ This project was developed with significant assistance from GitHub Copilot. Most
 
 Your Name - [@dieron](https://github.com/dieron)
 
-Project Link: [https://github.com/dieron/DynamicMethodSerializer](https://github.com/dieron/DynamicMethodSerializer)
+Project Link: [https://github.com/dieron/LambdaIsolation](https://github.com/dieron/LambdaIsolation)
 ```
