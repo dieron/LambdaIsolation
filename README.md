@@ -17,7 +17,7 @@ This code example allows capturing C# method calls as serializable DTOs that can
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/DynamicMethodSerializer.git
+git clone https://github.com/dieron/DynamicMethodSerializer.git
 cd DynamicMethodSerializer
 dotnet build
 ```
