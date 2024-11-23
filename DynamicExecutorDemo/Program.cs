@@ -126,6 +126,8 @@ public interface IExample
 {
     int Add(int x, int y);
     void Print(string message);
+
+	string Concat(string[] values);
 }
 
 public class ExampleImplementation : IExample
@@ -139,6 +141,11 @@ public class ExampleImplementation : IExample
     {
         Console.WriteLine(message);
     }
+
+	public string Concat(string[] values)
+	{
+		return string.Concat(values);
+	}
 }
 
 // Usage
@@ -152,5 +159,9 @@ class Program
 
         // For methods that return void
         DynamicExecutor.Execute<IExample>(x => x.Print("Hello, World!"));
+
+		// passing array of strings and concatenating them
+		var result2 = DynamicExecutor.Execute<IExample, string>(x => x.Concat(new string[] { "Hello", " ", "World" }));
+		Console.WriteLine($"Result: {result2}");
     }
 }
