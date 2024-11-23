@@ -38,16 +38,16 @@ Serialized output:
 
 ```json
 {
-  \"interfaceType\": \"IExample\",
-  \"methodName\": \"Add\",
-  \"arguments\": [
+  "interfaceType": "IExample",
+  "methodName": "Add",
+  "arguments": [
     {
-      \"typeName\": \"System.Int32\",
-      \"value\": 5
+      "typeName": "System.Int32",
+      "value": 5
     },
     {
-      \"typeName\": \"System.Int32\", 
-      \"value\": 3
+      "typeName": "System.Int32", 
+      "value": 3
     }
   ]
 }
