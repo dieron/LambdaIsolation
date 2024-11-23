@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug C# Program",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/DynamicExecutorDemo/bin/Debug/net8.0/DynamicExecutorDemo.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "neverOpen",
+            "justMyCode": true,
+            "logging": {
+                "moduleLoad": false
+            }
+        }
+    ]
+}
