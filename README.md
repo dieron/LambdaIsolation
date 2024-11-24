@@ -31,7 +31,7 @@ Basic example:
 var result = DynamicExecutor.Execute<IExample, int>(x => x.Add(5, 3));
 
 // Execute void method
-DynamicExecutor.Execute<IExample>(x => x.Print(\"Hello, World!\"));
+DynamicExecutor.Execute<IExample>(x => x.Print("Hello, World!"));
 ```
 
 Serialized output:
@@ -84,7 +84,7 @@ This project was developed with significant assistance from GitHub Copilot. Most
 
 ## Contact
 
-Your Name - [@dieron](https://github.com/dieron)
+[@dieron](https://github.com/dieron)
 
 Project Link: [https://github.com/dieron/LambdaIsolation](https://github.com/dieron/LambdaIsolation)
 ```
