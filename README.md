@@ -84,7 +84,7 @@ This project was developed with significant assistance from GitHub Copilot. Most
 
 ## Contact
 
-Your Name - [@dieron](https://github.com/dieron)
+[@dieron](https://github.com/dieron)
 
 Project Link: [https://github.com/dieron/LambdaIsolation](https://github.com/dieron/LambdaIsolation)
 ```
