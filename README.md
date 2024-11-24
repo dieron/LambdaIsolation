@@ -31,7 +31,7 @@ Basic example:
 var result = DynamicExecutor.Execute<IExample, int>(x => x.Add(5, 3));
 
 // Execute void method
-DynamicExecutor.Execute<IExample>(x => x.Print(\"Hello, World!\"));
+DynamicExecutor.Execute<IExample>(x => x.Print("Hello, World!"));
 ```
 
 Serialized output:
